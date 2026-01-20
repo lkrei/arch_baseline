@@ -8,6 +8,8 @@
 
 Датасет: https://drive.google.com/drive/folders/1w5mLc-nUvpBpB547pC2Dl0HnR02oDyqN?usp=sharing (~10,000 изображений).
 
+DEMO: https://archbaseline-jy298mvunzr6oemzxxbllx.streamlit.app/
+
 Остальные файлы на Диске: https://drive.google.com/drive/folders/1jPX0UMXkRx0Voi_GBLp7X6L87tMOB9gv?usp=sharing
 
 Для воспроизводимости .ipynb можно воспользоваться имеющимися файлами в Google Drive. 
