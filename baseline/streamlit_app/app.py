@@ -124,18 +124,24 @@ def predict(model, image_tensor, device):
 def main():
     with st.sidebar:
         st.header("Информация")
-        
         model_choice = st.selectbox("Выберите модель", ["ResNet-50", "EfficientNet-B0"])
-        
         st.markdown(f"Модель: {model_choice}")
         st.markdown("Количество классов: 25")
         st.markdown("Размер входного изображения: 224×224")
-        
         st.markdown("---")
         st.header("Поддерживаемые стили")
         with st.expander("Показать все стили"):
             for i, style in enumerate(CLASS_NAMES, 1):
                 st.text(f"{i}. {style}")
+
+    base_path = Path(__file__).resolve().parent.parent / "results" / "checkpoints"
+
+    if model_choice == "ResNet-50":
+        model_path = base_path / "best_model_resnet50.pth"
+        model, device = load_resnet50(str(model_path))
+    else:
+        model_path = base_path / "best_model_efficientnet_b0.pth"
+        model, device = load_efficientnet_b0(str(model_path))
     
     base_path = Path("/Users/keirl/Desktop/course_work/baseline/results/checkpoints")
     
