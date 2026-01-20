@@ -10,7 +10,7 @@
 
 DEMO: https://archbaseline-jy298mvunzr6oemzxxbllx.streamlit.app/
 
-Остальные файлы на Диске: https://drive.google.com/drive/folders/1jPX0UMXkRx0Voi_GBLp7X6L87tMOB9gv?usp=sharing
+Дублирование файлов на Диске: https://drive.google.com/drive/folders/1jPX0UMXkRx0Voi_GBLp7X6L87tMOB9gv?usp=sharing
 
 В случае необходимости воспроизведения .ipynb, можно воспользоваться имеющимися файлами в Google Drive. 
 
